@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode — user-specific state
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscheme
+!default.xcscheme
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode — build artifacts
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods / Carthage (we use neither, but excluded for safety)
+Pods/
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
